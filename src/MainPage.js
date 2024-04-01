@@ -105,7 +105,7 @@ export default function MainPage() {
         </Transition.Root>
 
         <main className="lg:ml-20 lg:mr-auto mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
-          <section aria-labelledby="products-heading" className="pb-24">
+          <section aria-labelledby="products-heading" className="sm:pb-24">
             <h2 id="products-heading" className="sr-only">
               Products
             </h2>
@@ -160,6 +160,43 @@ export default function MainPage() {
           ))}
         </div>
       </div>
+      <div class="mx-auto max-w-2xl px-4 py-16 lg:pt-0 lg:pb-16 sm:px-6 sm:py-24 lg:max-w-7xl lg:px-8">
+      <h2 className="text-2xl font-bold tracking-tight text-gray-900 pb-4">Shop by Categories</h2>
+        <div class="grid grid-cols-3 gap-3">
+            <div class="relative rounded-sm overflow-hidden group">
+                <img src="assets/images/category/category-1.jpg" alt="category 1" class="w-full"/>
+                <a href="#"
+                    class="absolute inset-0 bg-black bg-opacity-40 flex items-center justify-center text-xl text-white font-roboto font-medium group-hover:bg-opacity-60 transition">Bedroom</a>
+            </div>
+            <div class="relative rounded-sm overflow-hidden group">
+                <img src="assets/images/category/category-2.jpg" alt="category 1" class="w-full"/>
+                <a href="#"
+                    class="absolute inset-0 bg-black bg-opacity-40 flex items-center justify-center text-xl text-white font-roboto font-medium group-hover:bg-opacity-60 transition">Mattrass</a>
+            </div>
+            <div class="relative rounded-sm overflow-hidden group">
+                <img src="assets/images/category/category-3.jpg" alt="category 1" class="w-full"/>
+                <a href="#"
+                    class="absolute inset-0 bg-black bg-opacity-40 flex items-center justify-center text-xl text-white font-roboto font-medium group-hover:bg-opacity-60 transition">Outdoor
+                </a>
+            </div>
+            <div class="relative rounded-sm overflow-hidden group">
+                <img src="assets/images/category/category-4.jpg" alt="category 1" class="w-full"/>
+                <a href="#"
+                    class="absolute inset-0 bg-black bg-opacity-40 flex items-center justify-center text-xl text-white font-roboto font-medium group-hover:bg-opacity-60 transition">Sofa</a>
+            </div>
+            <div class="relative rounded-sm overflow-hidden group">
+                <img src="assets/images/category/category-5.jpg" alt="category 1" class="w-full"/>
+                <a href="#"
+                    class="absolute inset-0 bg-black bg-opacity-40 flex items-center justify-center text-xl text-white font-roboto font-medium group-hover:bg-opacity-60 transition">Living
+                    Room</a>
+            </div>
+            <div class="relative rounded-sm overflow-hidden group">
+                <img src="assets/images/category/category-6.jpg" alt="category 1" class="w-full"/>
+                <a href="#"
+                    class="absolute inset-0 bg-black bg-opacity-40 flex items-center justify-center text-xl text-white font-roboto font-medium group-hover:bg-opacity-60 transition">Kitchen</a>
+            </div>
+        </div>
+    </div>
     </div>
   )
 }
